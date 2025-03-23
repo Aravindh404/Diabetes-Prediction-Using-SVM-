@@ -1,1 +1,1 @@
-# Diabetes-Prediction-Using-SVM-
+# Diabetes-Prediction-Using-SVM
