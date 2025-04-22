@@ -5,6 +5,8 @@ import streamlit as st
 # loading saved model
 with open("trained_model1.sav", "rb") as model_file:
     loaded_model = pickle.load(model_file)
+import os
+st.write("Files in current directory:", os.listdir())
 
 # creating prediction function
 def diabetesPrediction(input_data):
